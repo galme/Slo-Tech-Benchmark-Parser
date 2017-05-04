@@ -1,11 +1,15 @@
 # Slo-Tech-Benchmark-Parser
 Slo-Tech Benchmark parsing tool for user submissions processing
 
-Author: Gal Meznarič ... galu | galme
-Meant for: https://slo-tech.com/
+DEPRECATED!
+New project: https://github.com/galme/Slo-Tech-Benchmark-Scraper
+--------------------------------------------------
+
+Author: galme
+For: https://slo-tech.com/
 
 FILE COMPATIBILITY INSTRUCTIONS:
-- data needs to be delimited by a '|' character. This can be easily changed though (just make sure it's as unique as possible)
+- data needs to be delimited by a '|' character.
 - nickname MUST be in the FIRST place, followed by the delimiter, for example: "galu | ..."
 - score MUST either be placed BEFORE a verification link, OR in the LAST place, if the verification link is not present, for example: "... | 9000" or "... | 9000 | https://slo-tech.com/forum/t555272/p4850946#p4850946"
 - verification link is not necessary, but it's nice
@@ -22,7 +26,7 @@ HOW TO RUN THIS THING:
 RECOMMENDATIONS:
 - add verification links because it really makes a great navigation
 - have one source file and append new results to the bottom of the document. The program doesn't care where you put it, as long as it's on it's seperate line, but you can get a chronological order that way
-- don't edit the _sorted output file, IF you're planning to use it for input in the future. You may mess up the parser!
+- don't edit the _sorted output file, IF you're planning to use it for input in the future. You may mess up the parser.
 
 
 An input file example can be found as "input_file_example.txt".
